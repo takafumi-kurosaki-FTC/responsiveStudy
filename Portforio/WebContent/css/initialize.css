@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+/* 全称セレクタによるキャンセル */
+*{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	outline: none;
+	text-decoration: none;
+	font-family: 'メイリオ',Meiryo;
+	color: black;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-weight: normal;
+	vertical-align: bottom;
+}
+
+/* ディスプレイサイズを指定しない場合の横幅 */
+body{
+	width: 1024px;
+	padding: 0px 10px;
+	margin: 0px auto;
+}
+
+/* スマホ対応 */
+@media screen and (max-width:480px){
+	body{
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+}
+
+/* タブレット対応 */
+@media screen and (min-width:481px) and (max-width:800px){
+	body{
+		width: 100%;
+		padding: 0px 10px;
+		margin: 0px;
+	}
+}
+
+/* PC大画面 */
+@media screen and (min-width:1024px){
+	body{
+		width: 98%;
+		padding: 0px 10px;
+		margin: 0px auto;
+	}
+}
