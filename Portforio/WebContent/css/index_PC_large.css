@@ -155,6 +155,7 @@
 .sidemenu1 > ul > li {
 	display: block;
 	position: relative;
+	margin-bottom: 10px;
 }
 
 .sidemenu1 > ul > li > div{
